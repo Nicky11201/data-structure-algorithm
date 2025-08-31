@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Arrays;
 public class DuplicateNumber {
     public static int [] removeDuplicates(int [] arr) {

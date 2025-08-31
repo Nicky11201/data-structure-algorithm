@@ -1,3 +1,4 @@
+package arrays;
 public class IsUnique {
     public boolean isUnique (int [] intArray) {
         for (int i = 0; i < intArray.length; i = i + 1) {

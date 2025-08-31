@@ -1,3 +1,4 @@
+package arrays;
 public class NumberInArray {
     public static int searchInArray (int [] intArray, int valueToSearch) {
         int index = 0;

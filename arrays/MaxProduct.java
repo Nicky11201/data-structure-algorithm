@@ -1,3 +1,4 @@
+package arrays;
 public class MaxProduct {
     public static String maxProduct (int[] intArray) {
         int highest = Integer.MIN_VALUE;

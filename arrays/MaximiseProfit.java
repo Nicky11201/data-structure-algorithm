@@ -1,3 +1,4 @@
+package arrays;
 public class MaximiseProfit {
     public static int maxProfit (int [] prices) {
         int maxProfit = 0;

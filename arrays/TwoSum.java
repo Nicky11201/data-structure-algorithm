@@ -1,3 +1,4 @@
+package arrays;
 import java.util.Arrays;
 public class TwoSum {
     public static int [] twoSum (int [] nums, int target) {
