@@ -8,12 +8,12 @@ public class DailyTemperature {
         System.out.print(Arrays.toString(dailyTemperature(temperature)));
     }
  
-    public static int [] dailyTemperature(int [] temperature) {
+    public static int [] dailyTemperature(int [] temperatures) {
         Stack<Integer> stack = new Stack<>();
-        int [] answer = new int[temperature.length];
+        int [] answer = new int[temperatures.length];
 
-        for (int i = temperature.length - 1; i >= 0; i = i - 1) {
-            while (!stack.isEmpty() && temperature[i] > temperature[stack.peek()]) {
+        for (int i = temperatures.length - 1; i >= 0; i = i - 1) {
+            while (!stack.isEmpty() && temperatures[i] >= temperatures[stack.peek()]) {
                 stack.pop();
             }
 
